@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <linearGradient id="gc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67232A"/>
+      <stop offset="60%" stop-color="#352820"/>
+      <stop offset="100%" stop-color="#1b140f"/>
+    </linearGradient>
+    <filter id="gcn"><feTurbulence baseFrequency="0.7" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.95  0 0 0 0 0.88  0 0 0 0 0.78  0 0 0 0.22 0"/></filter>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#gc)"/>
+  <rect width="1600" height="1200" filter="url(#gcn)" opacity="0.4"/>
+  <!-- warm backlight -->
+  <circle cx="800" cy="600" r="400" fill="#B28B66" opacity="0.18"/>
+  <circle cx="800" cy="600" r="220" fill="#F1E4D2" opacity="0.1"/>
+  <!-- fence silhouette -->
+  <g fill="#1b140f" opacity="0.9">
+    <rect x="200" y="860" width="12" height="180"/>
+    <rect x="400" y="860" width="12" height="180"/>
+    <rect x="600" y="860" width="12" height="180"/>
+    <rect x="800" y="860" width="12" height="180"/>
+    <rect x="1000" y="860" width="12" height="180"/>
+    <rect x="1200" y="860" width="12" height="180"/>
+    <rect x="1400" y="860" width="12" height="180"/>
+    <rect x="150" y="920" width="1300" height="8"/>
+    <rect x="150" y="990" width="1300" height="8"/>
+  </g>
+  <text x="30" y="1170" fill="#F1E4D2" opacity="0.25" font-family="monospace" font-size="14">PLACEHOLDER · closing.jpg</text>
+</svg>

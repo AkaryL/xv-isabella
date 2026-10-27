@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1E4D2" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#B28B66"/>
+      <stop offset="100%" stop-color="#79533B"/>
+    </linearGradient>
+    <filter id="g2n"><feTurbulence baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.95  0 0 0 0 0.88  0 0 0 0 0.78  0 0 0 0.18 0"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g2)"/>
+  <rect width="1200" height="900" filter="url(#g2n)" opacity="0.4"/>
+  <!-- field horizon -->
+  <path d="M0,620 Q300,560 600,610 Q900,660 1200,590 L1200,900 L0,900 Z" fill="#79533B" opacity="0.9"/>
+  <path d="M0,720 Q300,680 600,710 Q900,740 1200,690 L1200,900 L0,900 Z" fill="#352820" opacity="0.8"/>
+  <!-- figure silhouette walking -->
+  <g transform="translate(640 580)">
+    <ellipse cx="0" cy="-130" rx="60" ry="80" fill="#352820"/>
+    <path d="M-80,180 Q-80,-20 0,-50 Q80,-20 80,180 Z" fill="#352820"/>
+    <rect x="-30" y="180" width="20" height="140" fill="#352820"/>
+    <rect x="12" y="180" width="20" height="140" fill="#352820"/>
+    <!-- dress red hint -->
+    <path d="M-70,180 Q-70,20 0,0 Q70,20 70,180 Z" fill="#67232A" opacity="0.55"/>
+  </g>
+  <text x="30" y="870" fill="#F1E4D2" opacity="0.25" font-family="monospace" font-size="14">PLACEHOLDER · portrait-2.jpg</text>
+</svg>

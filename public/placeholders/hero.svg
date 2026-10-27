@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#B28B66" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#79533B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#352820"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67232A" stop-opacity="0.0"/>
+      <stop offset="40%" stop-color="#352820" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#352820"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.95  0 0 0 0 0.9  0 0 0 0 0.82  0 0 0 0.25 0"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="2000" fill="url(#sky)"/>
+  <!-- distant mountains -->
+  <path d="M0,1200 L200,1050 L420,1180 L640,980 L900,1150 L1180,1020 L1400,1180 L1600,1080 L1600,2000 L0,2000 Z" fill="#352820" opacity="0.55"/>
+  <path d="M0,1350 L240,1240 L480,1340 L720,1200 L1020,1320 L1300,1230 L1600,1340 L1600,2000 L0,2000 Z" fill="#352820" opacity="0.75"/>
+  <!-- subtle sun -->
+  <circle cx="800" cy="520" r="180" fill="#F1E4D2" opacity="0.08"/>
+  <circle cx="800" cy="520" r="90" fill="#F1E4D2" opacity="0.12"/>
+  <!-- foreground wash -->
+  <rect width="1600" height="2000" fill="url(#ground)"/>
+  <!-- grain -->
+  <rect width="1600" height="2000" filter="url(#grain)" opacity="0.3"/>
+  <!-- central portrait silhouette (abstract) -->
+  <g transform="translate(800 1350)">
+    <ellipse cx="0" cy="-120" rx="120" ry="150" fill="#352820" opacity="0.85"/>
+    <path d="M-220,420 Q-220,80 0,40 Q220,80 220,420 Z" fill="#352820" opacity="0.9"/>
+    <!-- faint red detail (vestido rojo subtle hint) -->
+    <path d="M-180,420 Q-180,180 0,160 Q180,180 180,420 Z" fill="#67232A" opacity="0.35"/>
+  </g>
+  <!-- label -->
+  <g transform="translate(60 1920)" fill="#F1E4D2" opacity="0.3" font-family="monospace" font-size="18">
+    <text>PLACEHOLDER · reemplaza con /photos/hero.jpg</text>
+  </g>
+</svg>

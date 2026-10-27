@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+.DS_Store
+.env
+.env.*
+*.local
+.vite
+.vercel
+
+# Fotos originales (solo locales, no se suben al repo)
+public/FOTOS/

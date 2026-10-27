@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <radialGradient id="g3" cx="40%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#F1E4D2" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#B28B66"/>
+      <stop offset="100%" stop-color="#352820"/>
+    </radialGradient>
+    <filter id="g3n"><feTurbulence baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.95  0 0 0 0 0.88  0 0 0 0 0.78  0 0 0 0.22 0"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#g3)"/>
+  <rect width="900" height="900" filter="url(#g3n)" opacity="0.4"/>
+  <!-- abstract detail: leather tie / knot -->
+  <g transform="translate(450 450)" stroke="#352820" stroke-width="22" fill="none" stroke-linecap="round">
+    <path d="M-200,-40 Q-100,-180 0,-40 Q100,-180 200,-40" opacity="0.9"/>
+    <path d="M-200,60 Q-100,220 0,60 Q100,220 200,60" opacity="0.9"/>
+  </g>
+  <!-- small red bead -->
+  <circle cx="450" cy="450" r="18" fill="#67232A" opacity="0.9"/>
+  <text x="20" y="870" fill="#F1E4D2" opacity="0.25" font-family="monospace" font-size="14">PLACEHOLDER · portrait-3.jpg</text>
+</svg>

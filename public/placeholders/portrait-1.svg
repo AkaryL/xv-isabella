@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B28B66"/>
+      <stop offset="60%" stop-color="#79533B"/>
+      <stop offset="100%" stop-color="#352820"/>
+    </linearGradient>
+    <filter id="g1n"><feTurbulence baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.95  0 0 0 0 0.88  0 0 0 0 0.78  0 0 0 0.22 0"/></filter>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g1)"/>
+  <rect width="900" height="1200" filter="url(#g1n)" opacity="0.4"/>
+  <g transform="translate(450 650)">
+    <ellipse cx="0" cy="-120" rx="130" ry="160" fill="#352820" opacity="0.9"/>
+    <path d="M-220,500 Q-220,80 0,40 Q220,80 220,500 Z" fill="#352820" opacity="0.95"/>
+    <path d="M-170,500 Q-170,200 0,180 Q170,200 170,500 Z" fill="#67232A" opacity="0.5"/>
+  </g>
+  <text x="30" y="1170" fill="#F1E4D2" opacity="0.25" font-family="monospace" font-size="14">PLACEHOLDER · portrait-1.jpg</text>
+</svg>
